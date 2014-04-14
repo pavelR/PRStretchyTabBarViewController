@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0116F7C718FC6E3900BF6C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7C618FC6E3900BF6C59 /* Foundation.framework */; };
+		0116F7C918FC6E3900BF6C59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7C818FC6E3900BF6C59 /* CoreGraphics.framework */; };
+		0116F7CB18FC6E3900BF6C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7CA18FC6E3900BF6C59 /* UIKit.framework */; };
+		0116F7D118FC6E3900BF6C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0116F7CF18FC6E3900BF6C59 /* InfoPlist.strings */; };
+		0116F7D318FC6E3900BF6C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F7D218FC6E3900BF6C59 /* main.m */; };
+		0116F7D718FC6E3900BF6C59 /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F7D618FC6E3900BF6C59 /* PRAppDelegate.m */; };
+		0116F7DA18FC6E3900BF6C59 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0116F7D818FC6E3900BF6C59 /* Main_iPhone.storyboard */; };
+		0116F7DD18FC6E3900BF6C59 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0116F7DB18FC6E3900BF6C59 /* Main_iPad.storyboard */; };
+		0116F7E018FC6E3900BF6C59 /* PRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F7DF18FC6E3900BF6C59 /* PRViewController.m */; };
+		0116F7E218FC6E3900BF6C59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0116F7E118FC6E3900BF6C59 /* Images.xcassets */; };
+		0116F7E918FC6E3900BF6C59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7E818FC6E3900BF6C59 /* XCTest.framework */; };
+		0116F7EA18FC6E3900BF6C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7C618FC6E3900BF6C59 /* Foundation.framework */; };
+		0116F7EB18FC6E3900BF6C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0116F7CA18FC6E3900BF6C59 /* UIKit.framework */; };
+		0116F7F318FC6E3900BF6C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0116F7F118FC6E3900BF6C59 /* InfoPlist.strings */; };
+		0116F7F518FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F7F418FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.m */; };
+		0116F80C18FC6FE000BF6C59 /* PRStretchySideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F80118FC6FE000BF6C59 /* PRStretchySideMenuItem.m */; };
+		0116F80D18FC6FE000BF6C59 /* PRStretchySideMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F80318FC6FE000BF6C59 /* PRStretchySideMenuItemView.m */; };
+		0116F80E18FC6FE000BF6C59 /* PRStretchySideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F80518FC6FE000BF6C59 /* PRStretchySideMenuView.m */; };
+		0116F80F18FC6FE000BF6C59 /* PRSystemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F80718FC6FE000BF6C59 /* PRSystemHelper.m */; };
+		0116F81118FC6FE000BF6C59 /* PRStretchyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116F80B18FC6FE000BF6C59 /* PRStretchyTabBarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0116F7EC18FC6E3900BF6C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0116F7BB18FC6E3900BF6C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0116F7C218FC6E3900BF6C59;
+			remoteInfo = PRStretchyTabBarViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0116F7C318FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRStretchyTabBarViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0116F7C618FC6E3900BF6C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0116F7C818FC6E3900BF6C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0116F7CA18FC6E3900BF6C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0116F7CE18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRStretchyTabBarViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		0116F7D018FC6E3900BF6C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0116F7D218FC6E3900BF6C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0116F7D418FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRStretchyTabBarViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0116F7D518FC6E3900BF6C59 /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
+		0116F7D618FC6E3900BF6C59 /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
+		0116F7D918FC6E3900BF6C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0116F7DC18FC6E3900BF6C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0116F7DE18FC6E3900BF6C59 /* PRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRViewController.h; sourceTree = "<group>"; };
+		0116F7DF18FC6E3900BF6C59 /* PRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRViewController.m; sourceTree = "<group>"; };
+		0116F7E118FC6E3900BF6C59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0116F7E718FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRStretchyTabBarViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0116F7E818FC6E3900BF6C59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0116F7F018FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRStretchyTabBarViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		0116F7F218FC6E3900BF6C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0116F7F418FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRStretchyTabBarViewControllerDemoTests.m; sourceTree = "<group>"; };
+		0116F80018FC6FE000BF6C59 /* PRStretchySideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRStretchySideMenuItem.h; sourceTree = "<group>"; };
+		0116F80118FC6FE000BF6C59 /* PRStretchySideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRStretchySideMenuItem.m; sourceTree = "<group>"; };
+		0116F80218FC6FE000BF6C59 /* PRStretchySideMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRStretchySideMenuItemView.h; sourceTree = "<group>"; };
+		0116F80318FC6FE000BF6C59 /* PRStretchySideMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRStretchySideMenuItemView.m; sourceTree = "<group>"; };
+		0116F80418FC6FE000BF6C59 /* PRStretchySideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRStretchySideMenuView.h; sourceTree = "<group>"; };
+		0116F80518FC6FE000BF6C59 /* PRStretchySideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRStretchySideMenuView.m; sourceTree = "<group>"; };
+		0116F80618FC6FE000BF6C59 /* PRSystemHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRSystemHelper.h; sourceTree = "<group>"; };
+		0116F80718FC6FE000BF6C59 /* PRSystemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRSystemHelper.m; sourceTree = "<group>"; };
+		0116F80A18FC6FE000BF6C59 /* PRStretchyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRStretchyTabBarViewController.h; sourceTree = "<group>"; };
+		0116F80B18FC6FE000BF6C59 /* PRStretchyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRStretchyTabBarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0116F7C018FC6E3900BF6C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F7C918FC6E3900BF6C59 /* CoreGraphics.framework in Frameworks */,
+				0116F7CB18FC6E3900BF6C59 /* UIKit.framework in Frameworks */,
+				0116F7C718FC6E3900BF6C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0116F7E418FC6E3900BF6C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F7E918FC6E3900BF6C59 /* XCTest.framework in Frameworks */,
+				0116F7EB18FC6E3900BF6C59 /* UIKit.framework in Frameworks */,
+				0116F7EA18FC6E3900BF6C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0116F7BA18FC6E3900BF6C59 = {
+			isa = PBXGroup;
+			children = (
+				0116F7CC18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo */,
+				0116F7EE18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests */,
+				0116F7C518FC6E3900BF6C59 /* Frameworks */,
+				0116F7C418FC6E3900BF6C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0116F7C418FC6E3900BF6C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7C318FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo.app */,
+				0116F7E718FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0116F7C518FC6E3900BF6C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7C618FC6E3900BF6C59 /* Foundation.framework */,
+				0116F7C818FC6E3900BF6C59 /* CoreGraphics.framework */,
+				0116F7CA18FC6E3900BF6C59 /* UIKit.framework */,
+				0116F7E818FC6E3900BF6C59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0116F7CC18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7FE18FC6FE000BF6C59 /* PRStretchyTabBarViewController */,
+				0116F7D518FC6E3900BF6C59 /* PRAppDelegate.h */,
+				0116F7D618FC6E3900BF6C59 /* PRAppDelegate.m */,
+				0116F7D818FC6E3900BF6C59 /* Main_iPhone.storyboard */,
+				0116F7DB18FC6E3900BF6C59 /* Main_iPad.storyboard */,
+				0116F7DE18FC6E3900BF6C59 /* PRViewController.h */,
+				0116F7DF18FC6E3900BF6C59 /* PRViewController.m */,
+				0116F7E118FC6E3900BF6C59 /* Images.xcassets */,
+				0116F7CD18FC6E3900BF6C59 /* Supporting Files */,
+			);
+			path = PRStretchyTabBarViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		0116F7CD18FC6E3900BF6C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7CE18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo-Info.plist */,
+				0116F7CF18FC6E3900BF6C59 /* InfoPlist.strings */,
+				0116F7D218FC6E3900BF6C59 /* main.m */,
+				0116F7D418FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0116F7EE18FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7F418FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.m */,
+				0116F7EF18FC6E3900BF6C59 /* Supporting Files */,
+			);
+			path = PRStretchyTabBarViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		0116F7EF18FC6E3900BF6C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7F018FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests-Info.plist */,
+				0116F7F118FC6E3900BF6C59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0116F7FE18FC6FE000BF6C59 /* PRStretchyTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0116F7FF18FC6FE000BF6C59 /* PRStretchySideMenu */,
+				0116F80A18FC6FE000BF6C59 /* PRStretchyTabBarViewController.h */,
+				0116F80B18FC6FE000BF6C59 /* PRStretchyTabBarViewController.m */,
+			);
+			path = PRStretchyTabBarViewController;
+			sourceTree = "<group>";
+		};
+		0116F7FF18FC6FE000BF6C59 /* PRStretchySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0116F80018FC6FE000BF6C59 /* PRStretchySideMenuItem.h */,
+				0116F80118FC6FE000BF6C59 /* PRStretchySideMenuItem.m */,
+				0116F80218FC6FE000BF6C59 /* PRStretchySideMenuItemView.h */,
+				0116F80318FC6FE000BF6C59 /* PRStretchySideMenuItemView.m */,
+				0116F80418FC6FE000BF6C59 /* PRStretchySideMenuView.h */,
+				0116F80518FC6FE000BF6C59 /* PRStretchySideMenuView.m */,
+				0116F80618FC6FE000BF6C59 /* PRSystemHelper.h */,
+				0116F80718FC6FE000BF6C59 /* PRSystemHelper.m */,
+			);
+			path = PRStretchySideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0116F7C218FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0116F7F818FC6E3900BF6C59 /* Build configuration list for PBXNativeTarget "PRStretchyTabBarViewControllerDemo" */;
+			buildPhases = (
+				0116F7BF18FC6E3900BF6C59 /* Sources */,
+				0116F7C018FC6E3900BF6C59 /* Frameworks */,
+				0116F7C118FC6E3900BF6C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRStretchyTabBarViewControllerDemo;
+			productName = PRStretchyTabBarViewControllerDemo;
+			productReference = 0116F7C318FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0116F7E618FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0116F7FB18FC6E3900BF6C59 /* Build configuration list for PBXNativeTarget "PRStretchyTabBarViewControllerDemoTests" */;
+			buildPhases = (
+				0116F7E318FC6E3900BF6C59 /* Sources */,
+				0116F7E418FC6E3900BF6C59 /* Frameworks */,
+				0116F7E518FC6E3900BF6C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0116F7ED18FC6E3900BF6C59 /* PBXTargetDependency */,
+			);
+			name = PRStretchyTabBarViewControllerDemoTests;
+			productName = PRStretchyTabBarViewControllerDemoTests;
+			productReference = 0116F7E718FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0116F7BB18FC6E3900BF6C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pavel_admin;
+				TargetAttributes = {
+					0116F7E618FC6E3900BF6C59 = {
+						TestTargetID = 0116F7C218FC6E3900BF6C59;
+					};
+				};
+			};
+			buildConfigurationList = 0116F7BE18FC6E3900BF6C59 /* Build configuration list for PBXProject "PRStretchyTabBarViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0116F7BA18FC6E3900BF6C59;
+			productRefGroup = 0116F7C418FC6E3900BF6C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0116F7C218FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo */,
+				0116F7E618FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0116F7C118FC6E3900BF6C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F7DD18FC6E3900BF6C59 /* Main_iPad.storyboard in Resources */,
+				0116F7E218FC6E3900BF6C59 /* Images.xcassets in Resources */,
+				0116F7DA18FC6E3900BF6C59 /* Main_iPhone.storyboard in Resources */,
+				0116F7D118FC6E3900BF6C59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0116F7E518FC6E3900BF6C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F7F318FC6E3900BF6C59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0116F7BF18FC6E3900BF6C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F80C18FC6FE000BF6C59 /* PRStretchySideMenuItem.m in Sources */,
+				0116F7D718FC6E3900BF6C59 /* PRAppDelegate.m in Sources */,
+				0116F81118FC6FE000BF6C59 /* PRStretchyTabBarViewController.m in Sources */,
+				0116F7E018FC6E3900BF6C59 /* PRViewController.m in Sources */,
+				0116F80D18FC6FE000BF6C59 /* PRStretchySideMenuItemView.m in Sources */,
+				0116F80F18FC6FE000BF6C59 /* PRSystemHelper.m in Sources */,
+				0116F80E18FC6FE000BF6C59 /* PRStretchySideMenuView.m in Sources */,
+				0116F7D318FC6E3900BF6C59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0116F7E318FC6E3900BF6C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0116F7F518FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0116F7ED18FC6E3900BF6C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0116F7C218FC6E3900BF6C59 /* PRStretchyTabBarViewControllerDemo */;
+			targetProxy = 0116F7EC18FC6E3900BF6C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0116F7CF18FC6E3900BF6C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0116F7D018FC6E3900BF6C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0116F7D818FC6E3900BF6C59 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0116F7D918FC6E3900BF6C59 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0116F7DB18FC6E3900BF6C59 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0116F7DC18FC6E3900BF6C59 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0116F7F118FC6E3900BF6C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0116F7F218FC6E3900BF6C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0116F7F618FC6E3900BF6C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0116F7F718FC6E3900BF6C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0116F7F918FC6E3900BF6C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0116F7FA18FC6E3900BF6C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0116F7FC18FC6E3900BF6C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PRStretchyTabBarViewControllerDemo.app/PRStretchyTabBarViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PRStretchyTabBarViewControllerDemoTests/PRStretchyTabBarViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0116F7FD18FC6E3900BF6C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PRStretchyTabBarViewControllerDemo.app/PRStretchyTabBarViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRStretchyTabBarViewControllerDemo/PRStretchyTabBarViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PRStretchyTabBarViewControllerDemoTests/PRStretchyTabBarViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0116F7BE18FC6E3900BF6C59 /* Build configuration list for PBXProject "PRStretchyTabBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0116F7F618FC6E3900BF6C59 /* Debug */,
+				0116F7F718FC6E3900BF6C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0116F7F818FC6E3900BF6C59 /* Build configuration list for PBXNativeTarget "PRStretchyTabBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0116F7F918FC6E3900BF6C59 /* Debug */,
+				0116F7FA18FC6E3900BF6C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0116F7FB18FC6E3900BF6C59 /* Build configuration list for PBXNativeTarget "PRStretchyTabBarViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0116F7FC18FC6E3900BF6C59 /* Debug */,
+				0116F7FD18FC6E3900BF6C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0116F7BB18FC6E3900BF6C59 /* Project object */;
+}
