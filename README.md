@@ -1,5 +1,4 @@
 # PRStretchyTabBarViewController
-==============================
 
 Tab bar with animation appearance and disappearance for save useful screen place. Supports iOS 6 and iOS 7.
 
@@ -41,11 +40,7 @@ Tab bar with animation appearance and disappearance for save useful screen place
 }
 
 ```
-
-**That's all**
-
 ## Contact
 [PavelR](http://github.com/pavelR)
 ## License
-
 PRStretchyTabBarViewController is available under the MIT license.
